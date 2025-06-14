@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-27T21:50:10 ICT" name="Suite" finished-at="2025-05-27T21:51:02 ICT" duration-ms="52089">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" name="LoginErrorValidation" class="datnd.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOderTest.submitOrder(java.util.HashMap)[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" name="submitOrder" class="datnd.tests.SubmitOderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-05-27T21:50:10 ICT" name="Submit Order Test" finished-at="2025-05-27T21:50:54 ICT" duration-ms="44320">
+      <class name="datnd.tests.SubmitOderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:10 ICT" name="launchApplication" finished-at="2025-05-27T21:50:35 ICT" duration-ms="24656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:35 ICT" name="submitOrder" data-provider="getData" finished-at="2025-05-27T21:50:38 ICT" duration-ms="3199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Datnd2109@, product=ZARA COAT 3, email=nguyenducdatgl@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:38 ICT" name="tearDown" finished-at="2025-05-27T21:50:38 ICT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:38 ICT" name="launchApplication" finished-at="2025-05-27T21:50:42 ICT" duration-ms="4302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:42 ICT" name="submitOrder" data-provider="getData" finished-at="2025-05-27T21:50:45 ICT" duration-ms="3035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Datnd2109@, product=ADIDAS ORIGINAL, email=datndhe161899@fpt.edu.vn}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:45 ICT" name="tearDown" finished-at="2025-05-27T21:50:45 ICT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:45 ICT" name="launchApplication" finished-at="2025-05-27T21:50:53 ICT" duration-ms="8117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:53 ICT" name="OrderHistoryTest" finished-at="2025-05-27T21:50:54 ICT" depends-on-methods="datnd.tests.SubmitOderTest.submitOrder" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datnd.tests.SubmitOderTest@72c8e7b]" started-at="2025-05-27T21:50:54 ICT" name="tearDown" finished-at="2025-05-27T21:50:54 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datnd.tests.SubmitOderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2025-05-27T21:50:10 ICT" name="Error Validations Test" finished-at="2025-05-27T21:51:02 ICT" duration-ms="52089">
+      <class name="datnd.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:50:10 ICT" name="launchApplication" finished-at="2025-05-27T21:50:35 ICT" duration-ms="25206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:50:35 ICT" name="LoginErrorValidation" finished-at="2025-05-27T21:50:35 ICT" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:50:36 ICT" name="tearDown" finished-at="2025-05-27T21:50:36 ICT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:50:36 ICT" name="launchApplication" finished-at="2025-05-27T21:50:59 ICT" duration-ms="23756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:50:59 ICT" name="ProductErrorValidation" finished-at="2025-05-27T21:51:02 ICT" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datnd.tests.ErrorValidationsTest@503f91c3]" started-at="2025-05-27T21:51:02 ICT" name="tearDown" finished-at="2025-05-27T21:51:02 ICT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datnd.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
